@@ -41,15 +41,12 @@ bool isPalindrome(string s)
 
 return true;
 }
-
-// Driver code
 int main()
 {
 	string parl;
 	cout <<"enter a word to check if is palindrome or not"<<endl;
 	cin>>parl;
-	string s=parl;;
-
+	string s=parl;
 	if (isPalindrome(s)) {
 		cout << endl<<"Yes: "<<parl<<" Is Palindrome ";
 	}
@@ -59,6 +56,4 @@ int main()
 
 	return 0;
 }
-
-// This Code is Contributed by Harshit Srivastava
 
